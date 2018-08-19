@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/* Kathryn Shannon 
+8/18/18
+Stylesheet 
+external css 
+*/
+
+/*main structural style */ 
+html {
+    
+    
+}
+body { 
+    
+}
+
+/* heading styles */ 
+h1 {   
+    font-size: 4em;
+    text-align: center;
+    background-color: rgb(175,234,220);
+    font-family:'Yeseva One';
+    padding: 60px;
+}
+ 
+/* paragraph styles */ 
+p{
+   font-family: 'Peddana';
+   font-size: 25px;    
+   text-align:; 
+   line-height: 1.3em; 
+}
+/*navigation */ 
+nav {
+    font-family:'Yeseva One';
+    
+}
+
+/*navigation top */ 
+
+
+/*navigation bottom */ 
+    /* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+    background-color: rgb(175,234,220); 
+    overflow: hidden;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+}
+    /* Style the links inside the navigation bar */
+.navbar a{
+    float: left;
+    display: block;
+    color: rgb(67,68,71);
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: 18.5%;
+}
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: rgb(250,201,209);
+    color: rgb(67,68,71);
+}
+/* add background color to active link */ 
+.navbar a:active{
+    background-color: rgb (255,244,176);
+    color: rgb(175,234,220);
+}
+/* Hide the link that should open and close the navbar on small screens */
+.navbar .icon {
+    display: none;
+}
