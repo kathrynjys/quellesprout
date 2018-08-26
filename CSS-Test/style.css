@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+/* Kathryn Shannon 
+8/18/18
+Stylesheet 
+external css 
+*/
+
+/*main structural style */ 
+/* body style */ 
+
+/* heading styles */  
+h1 {   
+    font-size: 6em;
+    text-align: center;
+    background-color: rgb(175,234,220);
+    color: rgb(67,68,71);
+    font-family:'Yeseva One';
+    padding: 75px;
+    margin: 0;
+} 
+/* paragraph styles */ 
+p{
+   font-family: 'Peddana';
+   font-size: 35px;    
+   text-align:; 
+   line-height: 1.3em; 
+   
+}
+/*navigation */ 
+nav {
+    font-family:'Yeseva One';
+}
+/* erase bullet points */ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*navigation top */ 
+.topnav {
+    overflow: hidden;
+}
+    /* Place the navbar at the top of the page, and make it stick */
+.topnav {
+    background-image: url("/photos/marble.jpg");
+    overflow: hidden;
+    position:top;
+    bottom: 0;
+    width: 100%;
+    border-style: groove;
+}
+ /* Style the links inside the navigation bar */
+.topnav a{ 
+    float: left;
+    display: block;
+    color: rgb(67,68,71);
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: 18.5%;
+}
+/* Change the color of links on hover */
+.topnav a:hover{
+    background-color: rgb(250,201,209);
+    color: rgb(67,68,71);
+}
+/*navigation bottom */ 
+    /* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+    background-image: url("/photos/marble.jpg");
+    overflow: hidden;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+    border-style: groove;
+}
+    /* Style the links inside the navigation bar */
+.navbar a{
+    float: left;
+    display: block;
+    color: rgb(67,68,71);
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: 18.5%;
+}
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: rgb(250,201,209);
+    color: rgb(67,68,71);
+}
+/* add background color to active link */ 
+.navbar a:active{
+    background-color: rgb(255,244,176);
+    color: rgb(175,234,220);
+}
+/* Hide the link that should open and close the navbar on small screens */
+.navbar .icon {
+    display: none;
+}
+
+/* footer style */ 
+footer { 
+    text-align: center; 
+    color:rgb(67,68,71);
+}
+
+/* gallery columns */ 
+/* The grid: Four equal columns that floats next to each other */
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after { 
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+.container {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white; 
+    font-size: 20px;
+}
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    
